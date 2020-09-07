@@ -4,4 +4,3 @@ function Person (name, age) {
 }
 
 var tina = new Person('Tina', 20)
-
