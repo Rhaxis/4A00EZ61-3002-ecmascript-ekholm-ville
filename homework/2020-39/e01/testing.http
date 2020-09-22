@@ -1,0 +1,25 @@
+GET http://koti.tamk.fi/~pohjus/hello.txt
+
+###
+
+http://koti.tamk.fi/~pohjus/rest/1.php
+
+// Gives html in browser because type is html
+
+###
+
+http://koti.tamk.fi/~pohjus/rest/2.php
+
+// Gives plain text in browser because type is text
+
+###
+POST http://koti.tamk.fi/~pohjus/rest/3.php
+Content-type: text/html
+
+<h1> HELLO </h1>
+
+###
+
+GET https://swapi.dev/api/people/32
+
+// Content-type: application/json
