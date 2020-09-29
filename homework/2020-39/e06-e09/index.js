@@ -10,7 +10,6 @@ function weather (city) {
   body.appendChild(img)
 }
 function weatherCoord (city) {
- 
   let p1 = document.querySelector('p1')
   p1.innerHTML = city.name + " temperature: " + city.main.temp + "K"
   const img = document.createElement('img')
